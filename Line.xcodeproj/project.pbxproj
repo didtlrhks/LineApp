@@ -30,6 +30,30 @@
 		8E7FB76F2B9C98D600F05045 /* UploadProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB76D2B9C98D600F05045 /* UploadProvider.swift */; };
 		8E7FB7712B9C98F600F05045 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7702B9C98F600F05045 /* UserObject.swift */; };
 		8E7FB7722B9C98F600F05045 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7702B9C98F600F05045 /* UserObject.swift */; };
+		8E7FB7742B9C991900F05045 /* ChatRoomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7732B9C991900F05045 /* ChatRoomObject.swift */; };
+		8E7FB7752B9C991900F05045 /* ChatRoomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7732B9C991900F05045 /* ChatRoomObject.swift */; };
+		8E7FB7772B9C992A00F05045 /* ChatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7762B9C992A00F05045 /* ChatObject.swift */; };
+		8E7FB7782B9C992A00F05045 /* ChatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7762B9C992A00F05045 /* ChatObject.swift */; };
+		8E7FB77A2B9C993700F05045 /* UserDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7792B9C993700F05045 /* UserDBRepository.swift */; };
+		8E7FB77B2B9C993700F05045 /* UserDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7792B9C993700F05045 /* UserDBRepository.swift */; };
+		8E7FB77D2B9C994800F05045 /* DBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB77C2B9C994800F05045 /* DBError.swift */; };
+		8E7FB77E2B9C994800F05045 /* DBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB77C2B9C994800F05045 /* DBError.swift */; };
+		8E7FB7802B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB77F2B9C995200F05045 /* ChatRoomDBRepository.swift */; };
+		8E7FB7812B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB77F2B9C995200F05045 /* ChatRoomDBRepository.swift */; };
+		8E7FB7832B9C999D00F05045 /* ChatDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7822B9C999D00F05045 /* ChatDBRepository.swift */; };
+		8E7FB7842B9C999D00F05045 /* ChatDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7822B9C999D00F05045 /* ChatDBRepository.swift */; };
+		8E7FB7862B9C99A900F05045 /* DBReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7852B9C99A900F05045 /* DBReference.swift */; };
+		8E7FB7872B9C99A900F05045 /* DBReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7852B9C99A900F05045 /* DBReference.swift */; };
+		8E7FB7892B9C99C400F05045 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7882B9C99C300F05045 /* User.swift */; };
+		8E7FB78A2B9C99C400F05045 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7882B9C99C300F05045 /* User.swift */; };
+		8E7FB78C2B9C99D000F05045 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB78B2B9C99D000F05045 /* ChatRoom.swift */; };
+		8E7FB78D2B9C99D000F05045 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB78B2B9C99D000F05045 /* ChatRoom.swift */; };
+		8E7FB78F2B9C99E100F05045 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB78E2B9C99E100F05045 /* Chat.swift */; };
+		8E7FB7902B9C99E100F05045 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB78E2B9C99E100F05045 /* Chat.swift */; };
+		8E7FB7922B9C99ED00F05045 /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7912B9C99ED00F05045 /* ChatData.swift */; };
+		8E7FB7932B9C99ED00F05045 /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7912B9C99ED00F05045 /* ChatData.swift */; };
+		8E7FB7952B9C9B3300F05045 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7942B9C9B3300F05045 /* URLImageView.swift */; };
+		8E7FB7962B9C9B3300F05045 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB7942B9C9B3300F05045 /* URLImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +91,18 @@
 		8E7FB76A2B9C96CE00F05045 /* Search.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Search.xcdatamodel; sourceTree = "<group>"; };
 		8E7FB76D2B9C98D600F05045 /* UploadProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProvider.swift; sourceTree = "<group>"; };
 		8E7FB7702B9C98F600F05045 /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		8E7FB7732B9C991900F05045 /* ChatRoomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomObject.swift; sourceTree = "<group>"; };
+		8E7FB7762B9C992A00F05045 /* ChatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatObject.swift; sourceTree = "<group>"; };
+		8E7FB7792B9C993700F05045 /* UserDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDBRepository.swift; sourceTree = "<group>"; };
+		8E7FB77C2B9C994800F05045 /* DBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBError.swift; sourceTree = "<group>"; };
+		8E7FB77F2B9C995200F05045 /* ChatRoomDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomDBRepository.swift; sourceTree = "<group>"; };
+		8E7FB7822B9C999D00F05045 /* ChatDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDBRepository.swift; sourceTree = "<group>"; };
+		8E7FB7852B9C99A900F05045 /* DBReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBReference.swift; sourceTree = "<group>"; };
+		8E7FB7882B9C99C300F05045 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E7FB78B2B9C99D000F05045 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		8E7FB78E2B9C99E100F05045 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		8E7FB7912B9C99ED00F05045 /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
+		8E7FB7942B9C9B3300F05045 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +169,18 @@
 				8E7FB7692B9C96CE00F05045 /* Search.xcdatamodeld */,
 				8E7FB76D2B9C98D600F05045 /* UploadProvider.swift */,
 				8E7FB7702B9C98F600F05045 /* UserObject.swift */,
+				8E7FB7732B9C991900F05045 /* ChatRoomObject.swift */,
+				8E7FB7762B9C992A00F05045 /* ChatObject.swift */,
+				8E7FB7792B9C993700F05045 /* UserDBRepository.swift */,
+				8E7FB77C2B9C994800F05045 /* DBError.swift */,
+				8E7FB77F2B9C995200F05045 /* ChatRoomDBRepository.swift */,
+				8E7FB7822B9C999D00F05045 /* ChatDBRepository.swift */,
+				8E7FB7852B9C99A900F05045 /* DBReference.swift */,
+				8E7FB7882B9C99C300F05045 /* User.swift */,
+				8E7FB78B2B9C99D000F05045 /* ChatRoom.swift */,
+				8E7FB78E2B9C99E100F05045 /* Chat.swift */,
+				8E7FB7912B9C99ED00F05045 /* ChatData.swift */,
+				8E7FB7942B9C9B3300F05045 /* URLImageView.swift */,
 			);
 			path = Line;
 			sourceTree = "<group>";
@@ -315,8 +363,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7FB77D2B9C994800F05045 /* DBError.swift in Sources */,
+				8E7FB7802B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */,
+				8E7FB7952B9C9B3300F05045 /* URLImageView.swift in Sources */,
+				8E7FB77A2B9C993700F05045 /* UserDBRepository.swift in Sources */,
+				8E7FB78C2B9C99D000F05045 /* ChatRoom.swift in Sources */,
+				8E7FB7742B9C991900F05045 /* ChatRoomObject.swift in Sources */,
+				8E7FB78F2B9C99E100F05045 /* Chat.swift in Sources */,
 				8E7FB76E2B9C98D600F05045 /* UploadProvider.swift in Sources */,
+				8E7FB7772B9C992A00F05045 /* ChatObject.swift in Sources */,
+				8E7FB7892B9C99C400F05045 /* User.swift in Sources */,
 				8E7FB7562B9C8B0600F05045 /* AppDelegate.swift in Sources */,
+				8E7FB7862B9C99A900F05045 /* DBReference.swift in Sources */,
+				8E7FB7832B9C999D00F05045 /* ChatDBRepository.swift in Sources */,
+				8E7FB7922B9C99ED00F05045 /* ChatData.swift in Sources */,
 				8E7FB76B2B9C96CE00F05045 /* Search.xcdatamodeld in Sources */,
 				8E7FB7282B9C872E00F05045 /* ContentView.swift in Sources */,
 				8E7FB7262B9C872E00F05045 /* LineApp.swift in Sources */,
@@ -336,8 +396,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7FB77E2B9C994800F05045 /* DBError.swift in Sources */,
+				8E7FB7812B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */,
+				8E7FB7962B9C9B3300F05045 /* URLImageView.swift in Sources */,
+				8E7FB77B2B9C993700F05045 /* UserDBRepository.swift in Sources */,
+				8E7FB78D2B9C99D000F05045 /* ChatRoom.swift in Sources */,
+				8E7FB7752B9C991900F05045 /* ChatRoomObject.swift in Sources */,
+				8E7FB7902B9C99E100F05045 /* Chat.swift in Sources */,
 				8E7FB76F2B9C98D600F05045 /* UploadProvider.swift in Sources */,
+				8E7FB7782B9C992A00F05045 /* ChatObject.swift in Sources */,
+				8E7FB78A2B9C99C400F05045 /* User.swift in Sources */,
 				8E7FB7572B9C8B0600F05045 /* AppDelegate.swift in Sources */,
+				8E7FB7872B9C99A900F05045 /* DBReference.swift in Sources */,
+				8E7FB7842B9C999D00F05045 /* ChatDBRepository.swift in Sources */,
+				8E7FB7932B9C99ED00F05045 /* ChatData.swift in Sources */,
 				8E7FB76C2B9C96CE00F05045 /* Search.xcdatamodeld in Sources */,
 				8E7FB7432B9C873200F05045 /* LineUITestsLaunchTests.swift in Sources */,
 				8E7FB7412B9C873200F05045 /* LineUITests.swift in Sources */,
