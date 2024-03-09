@@ -148,6 +148,14 @@
 		8E7FB8202B9CD37300F05045 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB81E2B9CD37300F05045 /* SettingViewModel.swift */; };
 		8E7FB8222B9CD38400F05045 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8212B9CD38400F05045 /* SettingItem.swift */; };
 		8E7FB8232B9CD38400F05045 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8212B9CD38400F05045 /* SettingItem.swift */; };
+		8E7FB8252B9CD46A00F05045 /* ImageCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8242B9CD46A00F05045 /* ImageCacheService.swift */; };
+		8E7FB8262B9CD46A00F05045 /* ImageCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8242B9CD46A00F05045 /* ImageCacheService.swift */; };
+		8E7FB8282B9CD47A00F05045 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8272B9CD47A00F05045 /* MemoryStorage.swift */; };
+		8E7FB8292B9CD47A00F05045 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB8272B9CD47A00F05045 /* MemoryStorage.swift */; };
+		8E7FB82B2B9CD48700F05045 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB82A2B9CD48700F05045 /* DiskStorage.swift */; };
+		8E7FB82C2B9CD48700F05045 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB82A2B9CD48700F05045 /* DiskStorage.swift */; };
+		8E7FB82E2B9CD49700F05045 /* PhotoPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB82D2B9CD49700F05045 /* PhotoPickerService.swift */; };
+		8E7FB82F2B9CD49700F05045 /* PhotoPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FB82D2B9CD49700F05045 /* PhotoPickerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +252,10 @@
 		8E7FB81B2B9CD36500F05045 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		8E7FB81E2B9CD37300F05045 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		8E7FB8212B9CD38400F05045 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		8E7FB8242B9CD46A00F05045 /* ImageCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheService.swift; sourceTree = "<group>"; };
+		8E7FB8272B9CD47A00F05045 /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		8E7FB82A2B9CD48700F05045 /* DiskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		8E7FB82D2B9CD49700F05045 /* PhotoPickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +381,10 @@
 				8E7FB81B2B9CD36500F05045 /* SettingView.swift */,
 				8E7FB81E2B9CD37300F05045 /* SettingViewModel.swift */,
 				8E7FB8212B9CD38400F05045 /* SettingItem.swift */,
+				8E7FB8242B9CD46A00F05045 /* ImageCacheService.swift */,
+				8E7FB8272B9CD47A00F05045 /* MemoryStorage.swift */,
+				8E7FB82A2B9CD48700F05045 /* DiskStorage.swift */,
+				8E7FB82D2B9CD49700F05045 /* PhotoPickerService.swift */,
 			);
 			path = Line;
 			sourceTree = "<group>";
@@ -555,6 +571,7 @@
 				8E7FB7C22B9C9C7000F05045 /* DIContainer.swift in Sources */,
 				8E7FB7BF2B9C9C6400F05045 /* AppearanceType.swift in Sources */,
 				8E7FB81C2B9CD36500F05045 /* SettingView.swift in Sources */,
+				8E7FB82B2B9CD48700F05045 /* DiskStorage.swift in Sources */,
 				8E7FB7A72B9C9BF800F05045 /* NavigationRoutingView.swift in Sources */,
 				8E7FB7B62B9C9C3E00F05045 /* NavigationDestination.swift in Sources */,
 				8E7FB7802B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */,
@@ -574,6 +591,8 @@
 				8E7FB8162B9CD34800F05045 /* SearchBar.swift in Sources */,
 				8E7FB7F82B9CD2A200F05045 /* ChatListView.swift in Sources */,
 				8E7FB78F2B9C99E100F05045 /* Chat.swift in Sources */,
+				8E7FB8282B9CD47A00F05045 /* MemoryStorage.swift in Sources */,
+				8E7FB82E2B9CD49700F05045 /* PhotoPickerService.swift in Sources */,
 				8E7FB80A2B9CD30E00F05045 /* ChatView.swift in Sources */,
 				8E7FB76E2B9C98D600F05045 /* UploadProvider.swift in Sources */,
 				8E7FB7BC2B9C9C5B00F05045 /* AppearanceController.swift in Sources */,
@@ -583,6 +602,7 @@
 				8E7FB7D72B9C9D4900F05045 /* MainTabType.swift in Sources */,
 				8E7FB7772B9C992A00F05045 /* ChatObject.swift in Sources */,
 				8E7FB7B02B9C9C2300F05045 /* ObservableObjectSettable.swift in Sources */,
+				8E7FB8252B9CD46A00F05045 /* ImageCacheService.swift in Sources */,
 				8E7FB7F22B9C9DDB00F05045 /* OtherProfileViewModel.swift in Sources */,
 				8E7FB7E62B9C9D9F00F05045 /* MyProfileViewModel.swift in Sources */,
 				8E7FB7D42B9C9D3B00F05045 /* MainTabView.swift in Sources */,
@@ -635,6 +655,7 @@
 				8E7FB7C32B9C9C7000F05045 /* DIContainer.swift in Sources */,
 				8E7FB7C02B9C9C6400F05045 /* AppearanceType.swift in Sources */,
 				8E7FB81D2B9CD36500F05045 /* SettingView.swift in Sources */,
+				8E7FB82C2B9CD48700F05045 /* DiskStorage.swift in Sources */,
 				8E7FB7A82B9C9BF800F05045 /* NavigationRoutingView.swift in Sources */,
 				8E7FB7B72B9C9C3E00F05045 /* NavigationDestination.swift in Sources */,
 				8E7FB7812B9C995200F05045 /* ChatRoomDBRepository.swift in Sources */,
@@ -654,6 +675,8 @@
 				8E7FB8172B9CD34800F05045 /* SearchBar.swift in Sources */,
 				8E7FB7F92B9CD2A200F05045 /* ChatListView.swift in Sources */,
 				8E7FB7902B9C99E100F05045 /* Chat.swift in Sources */,
+				8E7FB8292B9CD47A00F05045 /* MemoryStorage.swift in Sources */,
+				8E7FB82F2B9CD49700F05045 /* PhotoPickerService.swift in Sources */,
 				8E7FB80B2B9CD30E00F05045 /* ChatView.swift in Sources */,
 				8E7FB76F2B9C98D600F05045 /* UploadProvider.swift in Sources */,
 				8E7FB7BD2B9C9C5B00F05045 /* AppearanceController.swift in Sources */,
@@ -663,6 +686,7 @@
 				8E7FB7D82B9C9D4900F05045 /* MainTabType.swift in Sources */,
 				8E7FB7782B9C992A00F05045 /* ChatObject.swift in Sources */,
 				8E7FB7B12B9C9C2300F05045 /* ObservableObjectSettable.swift in Sources */,
+				8E7FB8262B9CD46A00F05045 /* ImageCacheService.swift in Sources */,
 				8E7FB7F32B9C9DDB00F05045 /* OtherProfileViewModel.swift in Sources */,
 				8E7FB7E72B9C9D9F00F05045 /* MyProfileViewModel.swift in Sources */,
 				8E7FB7D52B9C9D3B00F05045 /* MainTabView.swift in Sources */,
