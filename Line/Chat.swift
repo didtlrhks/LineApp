@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct Chat: Hashable, Identifiable {
     var chatId: String
     var userId: String

@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
-import Foundation
 
 struct ChatRoom: Hashable {
     var chatRoomId: String
